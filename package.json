@@ -1,0 +1,15 @@
+{
+  "name": "automation-anywhere-playwright",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "playwright test",
+    "headed": "playwright test --headed",
+    "debug": "playwright test --debug",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.54.0",
+    "dotenv": "^17.2.1",
+    "typescript": "^5.8.3"
+  }
+}
